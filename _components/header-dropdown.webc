@@ -2,16 +2,16 @@
   <sl-icon-button label="Header dropdown." color="primary" slot="trigger" name="list">
   </sl-icon-button>
   <sl-menu>
-    <sl-menu-item value="/">
+    <sl-menu-item aria-label="Navigate to home page." value="/">
       Hello
     </sl-menu-item>
-    <sl-menu-item value="/software">
+    <sl-menu-item aria-label="Navigate to software page." value="/software">
       Software
     </sl-menu-item>
-    <sl-menu-item value="/music">
+    <sl-menu-item aria-label="Navigate to music page." value="/music">
       Music
     </sl-menu-item>
-    <sl-menu-item value="/contact">
+    <sl-menu-item aria-label="Navigate to contact page." value="/contact">
       Contact
     </sl-menu-item>
   </sl-menu>

@@ -1,4 +1,4 @@
-<sl-icon-button href="/" name="house-fill">
+<sl-icon-button aria-label="Link to website home." href="/" name="house-fill">
 </sl-icon-button>
 
 <style webc:scoped>
