@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Zach Balder's personal site.">
+    <template webc:type="11ty" 11ty:type="liquid">
+      <title>{{ title }} | Zach Balder</title>
+    </template>
+    <link rel="icon" type="image/svg+xml" href="/assets/icons/dreamsay-favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link webc:keep rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap">
+    <link webc:keep rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.4.0/dist/themes/light.css" />
+    <script webc:keep type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.4.0/dist/shoelace-autoloader.js">
+    </script>
+    <link rel="stylesheet" href="index.css">
+    <style webc:keep @raw="getBundle('css')"></style>
+    <script webc:keep @raw="getBundle('js')"></script>
+  </head>
+  <body>
+    <header>
+      <header-home></header-home>
+        <header-title>
+          <template webc:type="11ty" 11ty:type="liquid">
+            {{ title }}
+          </template>
+        </header-title>
+      <header-dropdown></header-dropdown>
+    </header>
+    <main @raw="content">
+    </main>
+    <footer>
+      <footer-icon href="https://instagram.com/zachbalder" label="Link to Instagram profile." name="instagram">
+      </footer-icon>
+      <footer-icon href="https://linkedin.com/in/zachary-balder/" label="Link to LinkedIn profile." name="linkedin">
+      </footer-icon>
+      <footer-icon href="https://github.com/zbo14" label="Link to GitHub profile." name="github">
+      </footer-icon>
+      <footer-icon href="https://open.spotify.com/artist/4fqgVPr0EhHqtgPuZbDcxf" label="Link to band's Spotify profile." name="spotify">
+      </footer-icon>
+    </footer>
+</script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+<div><slot></slot></div>
+
+<style webc:scoped>
+:host div {
+  align-items: center;
+  display: flex;
+  gap: var(--sl-spacing-small);
+}
+
+:host div > *:first-child {
+  margin-left: auto;
+}
+
+:host div > *:last-child {
+  margin-right: auto;
+}
+
+@media (min-width: 800px) {
+  :host div {
+    gap: var(--sl-spacing-large);
+  }
+}
+</style>

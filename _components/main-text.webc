@@ -1,0 +1,12 @@
+<p><slot>Text</slot></p>
+
+<style webc:scoped>
+  :host p {
+    font-size: var(--sl-font-size-medium);
+    font-weight: 400;
+    letter-spacing: var(--sl-letter-spacing-normal);
+    line-height: var(--sl-line-height-normal);
+    margin: 0;
+    padding: 0;
+  }
+</style>

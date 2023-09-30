@@ -1,0 +1,19 @@
+<h1><slot>Title</slot></h1>
+
+<style webc:scoped>
+  :host h1 {
+    align-content: center;
+    font-size: var(--sl-font-size-x-large);
+    font-weight: 500;
+    letter-spacing: var(--sl-letter-spacing-loose);
+    background: linear-gradient(var(--sl-color-primary-700),var(--sl-color-primary-600));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  @media (min-width: 800px) {
+    :host h1 {
+      font-size: var(--sl-font-size-2x-large);
+    }
+  }
+</style>

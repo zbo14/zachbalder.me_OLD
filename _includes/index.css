@@ -1,0 +1,106 @@
+:root {
+  /* Custom */
+  --main-gap: var(--sl-spacing-large);
+  --main-width: 85%;
+  --main-y-padding: 24%;
+  --header-item-x-margin: var(--sl-spacing-medium);
+
+  /* Primary colors */
+  --sl-color-primary-50: rgb(248 249 255);
+  --sl-color-primary-100: rgb(231 236 255);
+  --sl-color-primary-200: rgb(212 221 255);
+  --sl-color-primary-300: rgb(192 205 255);
+  --sl-color-primary-400: rgb(164 183 255);
+  --sl-color-primary-500: rgb(128 154 255);
+  --sl-color-primary-600: rgb(102 126 220);
+  --sl-color-primary-700: rgb(84 104 181);
+  --sl-color-primary-800: rgb(69 85 149);
+  --sl-color-primary-900: rgb(49 61 106);
+  --sl-color-primary-950: rgb(30 37 65);
+
+  /* Neutral colors */
+  --sl-color-neutral-50: rgb(249 249 250);
+  --sl-color-neutral-100: rgb(234 237 238);
+  --sl-color-neutral-200: rgb(218 223 225);
+  --sl-color-neutral-300: rgb(200 208 211);
+  --sl-color-neutral-400: rgb(177 188 193);
+  --sl-color-neutral-500: rgb(147 162 169);
+  --sl-color-neutral-600: rgb(116 135 144);
+  --sl-color-neutral-700: rgb(90 111 122);
+  --sl-color-neutral-800: rgb(74 92 101);
+  --sl-color-neutral-900: rgb(53 65 71);
+  --sl-color-neutral-950: rgb(32 40 44);
+
+  /* Font sizes */
+  --sl-font-size-x-small: 14px;
+  --sl-font-size-small: 16px;
+  --sl-font-size-medium: 18px;   /* text */
+  --sl-font-size-large: 20px;    /* subheading */
+  --sl-font-size-x-large: 26px;  /* heading */
+  --sl-font-size-2x-large: 36px; /* title */
+
+  /* Letter spacing */
+  --sl-letter-spacing-loose: 0.05em;
+}
+
+@media (min-width: 800px) {
+  :root {
+    --main-gap: var(--sl-spacing-2x-large);
+    --main-width: 50%;
+    --main-y-padding: 8%;
+    --header-item-x-margin: var(--sl-spacing-x-large);
+  }
+}
+
+/* Elements */
+
+body {
+  background-color: var(--sl-color-neutral-50);
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: var(--main-y-padding) 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--main-gap);
+  width: var(--main-width);
+  margin: 0 auto;
+}
+
+* {
+  font-family: Asap, sans-serif;
+}
+
+header {
+  box-sizing: content-box;
+  background-color: var(--sl-color-neutral-50);
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+  border-bottom: 1px solid var(--sl-color-neutral-100);
+  box-shadow: var(--sl-shadow-x-small);
+}
+
+header > * {
+  margin: 0 var(--header-item-x-margin);
+}
+
+footer {
+  background-color: var(--sl-color-neutral-50);
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: var(--sl-spacing-medium);
+  padding: var(--sl-spacing-x-small) 0;
+  border-top: 1px solid var(--sl-color-neutral-100);
+}

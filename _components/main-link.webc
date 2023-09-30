@@ -1,0 +1,11 @@
+<a :href="href" target="_blank"><slot>Link</slot></a>
+
+<style webc:scoped>
+   :host a, :host a:visited {
+    color: unset;
+  }
+
+  :host a:hover {
+    color: var(--sl-color-primary-700);
+  }
+</style>

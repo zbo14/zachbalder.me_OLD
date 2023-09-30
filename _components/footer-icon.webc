@@ -1,0 +1,8 @@
+<sl-icon-button :href="href" target="_blank" :label="label" color="primary" :name="name">
+</sl-icon-button>
+
+<style webc:scoped>
+:host sl-icon-button {
+  font-size: 1.2rem;
+}
+</style>

@@ -1,0 +1,12 @@
+---
+layout: layout.webc
+title: Contact
+permalink: "/contact"
+---
+
+<main-heading align="center">
+  Get in touch!
+</main-heading>
+
+<main-contact-form>
+</main-contact-form>

@@ -1,0 +1,61 @@
+<sl-dropdown placement="bottom-end">
+  <sl-icon-button label="Header dropdown." color="primary" slot="trigger" name="list">
+  </sl-icon-button>
+  <sl-menu>
+    <sl-menu-item value="/">
+      Hello
+    </sl-menu-item>
+    <sl-menu-item value="/software">
+      Software
+    </sl-menu-item>
+    <sl-menu-item value="/music">
+      Music
+    </sl-menu-item>
+    <sl-menu-item value="/contact">
+      Contact
+    </sl-menu-item>
+  </sl-menu>
+</sl-dropdown>
+
+<style webc:scoped>
+:host sl-menu-item::part(label) {
+  font-size: var(--sl-font-size-medium);
+}
+
+:host sl-icon-button {
+  font-size: 1.4rem;
+  border-radius: var(--sl-border-radius-medium);
+  border: 1px solid var(--sl-color-neutral-200);
+  box-shadow: var(--sl-shadow-large);
+  padding: 0 var(--sl-spacing-2x-small);
+}
+
+:host sl-dropdown:not(:defined) {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  :host sl-icon-button {
+    font-size: 1.6rem;
+    padding: 0 var(--sl-spacing-x-small);
+  }
+
+  :host sl-menu-item::part(label) {
+    font-size: var(--sl-font-size-large);
+  }
+}
+</style>
+
+<script>
+  window.customElements.define('header-dropdown', class extends HTMLElement {
+    connectedCallback () {
+      this.addEventListener('sl-select', event => {
+        const path = '/' + window.location.href.split('/').pop()
+
+        if (path.trim() !== event.detail.item.value) {
+          window.location = event.detail.item.value
+        }
+      })
+    }
+  })
+</script>

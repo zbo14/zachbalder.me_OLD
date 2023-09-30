@@ -1,0 +1,20 @@
+{
+  "name": "zachbalder.me",
+  "version": "0.1.0",
+  "description": "Zach Balder's personal site.",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf _site; npx @11ty/eleventy",
+    "dev": "rm -rf _site; npx @11ty/eleventy --serve",
+    "lint": "npx stylelint **/*.css"
+  },
+  "author": "Zach Balder",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-plugin-webc": "^0.11.1",
+    "@quasibit/eleventy-plugin-sitemap": "^2.2.0",
+    "stylelint": "^15.10.3",
+    "stylelint-config-standard": "^34.0.0"
+  }
+}

@@ -1,0 +1,32 @@
+---
+layout: layout.webc
+title:   👋 Hello
+permalink: "/"
+---
+<main-heading align="center">
+  My name's Zach!
+</main-heading>
+
+<main-row>
+  <sl-icon name="laptop-fill" style="font-size: 1.8em;">
+  </sl-icon>
+  <main-text>
+    I design and build <main-link href="/software">web applications</main-link>
+  </main-text>
+</main-row>
+
+<main-row>
+  <sl-icon name="music-note-beamed" style="font-size: 1.8em;">
+  </sl-icon>
+  <main-text>
+    I write and record <main-link href="/music">electropop music</main-link>
+  </main-text>
+</main-row>
+
+<main-row>
+  <sl-icon name="chat-dots-fill" style="font-size: 1.8em;">
+  </sl-icon>
+  <main-text>
+    I'd love to <main-link href="/contact">hear from you</main-link>
+  </main-text>
+</main-row>

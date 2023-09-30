@@ -1,0 +1,12 @@
+<section>
+  <slot></slot>
+</section>
+
+<style webc:scoped>
+  :host section {
+    display: flex;
+    flex-direction: column;
+    gap: var(--sl-spacing-x-large);
+    margin: 0 auto;
+  }
+</style>

@@ -1,0 +1,10 @@
+<h2><slot>Heading</slot></h2>
+
+<style webc:scoped>
+  :host h2 {
+    font-size: var(--sl-font-size-x-large);
+    font-weight: 400;
+    margin: 0 auto;
+    padding: var(--sl-spacing-small) 0;
+  }
+</style>

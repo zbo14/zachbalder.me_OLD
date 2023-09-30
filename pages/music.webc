@@ -1,0 +1,20 @@
+---
+layout: layout.webc
+title: Music
+permalink: "/music"
+---
+
+<main-heading align="center">
+  I write and record electropop music
+</main-heading>
+
+<main-text>
+  In Spring 2023, I began writing and recording music in my apartment. I created instrumentals using a virtual synthesizer and recorded vocals over them. I connected with a guitarist on Craigslist and he recorded guitar tracks. Together, we released our first 3 singles.
+</main-text>
+
+<main-embed src="https://open.spotify.com/embed/artist/4fqgVPr0EhHqtgPuZbDcxf?utm_source=generator"></main-embed>
+
+<main-text>
+  After that, I met a producer (also on Craigslist).
+  We're collaborating on several songs and hoping to release an EP soon! Check out <main-link href="https://dreamsay.band">our website</main-link> and <main-link href="https://linktr.ee/dreamsay">linktree</main-link> for more.
+</main-text>
