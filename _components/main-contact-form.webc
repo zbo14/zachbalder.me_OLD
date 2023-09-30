@@ -1,7 +1,7 @@
 <form name="Contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true">
-  <input type="text" name="name" hidden />
-  <input type="email" name="email" hidden />
-  <textarea name="message" hidden></textarea>
+  <input type="text" name="name" hidden disabled />
+  <input type="email" name="email" hidden disabled />
+  <textarea name="message" hidden disabled></textarea>
   <sl-input label="Name" name="name" required></sl-input>
   <sl-input label="Email" name="email" required></sl-input>
   <sl-textarea label="Message" name="message" help-text="Looking for help on a project? Interested in music collaboration? Whatever it is, let me know!"></sl-textarea>
