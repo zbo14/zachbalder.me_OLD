@@ -4,7 +4,7 @@
   <textarea name="message"></textarea>
   <div data-netlify-recaptcha="true"></div>
 </form>
-<form name="Contact" method="POST" hidden="false">
+<form name="Contact" method="POST" hidden="false" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true">
   <input type="hidden" name="form-name" value="Contact" />
   <sl-input label="Name" name="name" required></sl-input>
   <sl-input label="Email" name="email" required></sl-input>
