@@ -11,7 +11,7 @@ permalink: "/"
   <sl-icon name="laptop-fill" style="font-size: 1.8em;">
   </sl-icon>
   <main-text>
-    I design and build <main-link href="/software">web applications</main-link>
+    I design and build <main-link internal="true" href="/software">web applications</main-link>
   </main-text>
 </main-row>
 
@@ -19,7 +19,7 @@ permalink: "/"
   <sl-icon name="music-note-beamed" style="font-size: 1.8em;">
   </sl-icon>
   <main-text>
-    I write and record <main-link href="/music">electropop music</main-link>
+    I write and record <main-link internal="true" href="/music">electropop music</main-link>
   </main-text>
 </main-row>
 
@@ -27,6 +27,6 @@ permalink: "/"
   <sl-icon name="chat-dots-fill" style="font-size: 1.8em;">
   </sl-icon>
   <main-text>
-    I'd love to <main-link href="/contact">hear from you</main-link>
+    I'd love to <main-link internal="true" href="/contact">hear from you</main-link>
   </main-text>
 </main-row>
