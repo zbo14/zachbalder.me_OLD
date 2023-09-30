@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Zach Balder's personal site.">
+    <meta name="description" content="Personal site for Zach Balder - Software engineer and electropop artist.">
     <template webc:type="11ty" 11ty:type="liquid">
       <title>{{ title }} | Zach Balder</title>
     </template>
