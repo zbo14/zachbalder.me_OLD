@@ -1,12 +1,18 @@
-<form id="contact-form" name="contact" method="POST" data-netlify="true">
-  <sl-input form="contact-form" label="Name" name="name" required></sl-input>
-  <sl-input form="contact-form" label="Email" name="email" required></sl-input>
-  <sl-textarea form="contact-form" label="Message" name="message" help-text="Looking for help on a project? Interested in music collaboration? Whatever it is, let me know!"></sl-textarea>
+<form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true" hidden>
+  <input type="text" name="name" required />
+  <input type="email" name="email" required />
+  <textarea name="message"></textarea>
+  <div data-netlify-recaptcha="true"></div>
+</form>
+<form name="contact" method="POST" hidden="false">
+  <sl-input label="Name" name="name" required></sl-input>
+  <sl-input label="Email" name="email" required></sl-input>
+  <sl-textarea label="Message" name="message" help-text="Looking for help on a project? Interested in music collaboration? Whatever it is, let me know!"></sl-textarea>
   <sl-button type="submit">Submit</sl-button>
 </form>
 
 <style webc:scoped>
-  :host form {
+  :host form[hidden="false"] {
     display: flex;
     flex-direction: column;
     gap: var(--sl-spacing-x-large);
