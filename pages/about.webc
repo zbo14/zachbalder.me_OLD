@@ -1,0 +1,20 @@
+---
+layout: layout.webc
+title: About
+permalink: "/about.html"
+---
+
+<main-row>
+  <main-image src="/assets/images/me-li.png" width="80" height="80"></main-image>
+  <main-heading>
+    A little about me...
+  </main-heading>
+</main-row>
+
+<main-text>
+  When I'm not programming or making music, I enjoy reading sci-fi (Ursula K. Le Guin!) and watching Star Trek (mostly TNG but DS9 is on my watchlist).
+</main-text>
+
+<main-text>
+  I love cats and dogs and have been known to <main-link href="https://codepen.io/zbo14/pen/mdjbQOE">create digital artwork</main-link> for my fur friends.
+</main-text>

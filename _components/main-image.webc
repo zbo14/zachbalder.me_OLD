@@ -1,0 +1,13 @@
+<img :src="src" :width="width" :height="height" />
+
+<style webc:scoped>
+  :host {
+    padding: var(--sl-spacing-small) 0;
+  }
+
+  :host img {
+    border: 1px solid var(--sl-color-neutral-100);
+    border-radius: 50%;
+    box-shadow: var(--sl-shadow-medium);
+  }
+</style>

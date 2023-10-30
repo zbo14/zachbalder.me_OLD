@@ -7,13 +7,13 @@
   gap: var(--sl-spacing-small);
 }
 
-:host div > *:first-child {
+/*:host div > *:first-child {
   margin-left: auto;
 }
 
 :host div > *:last-child {
   margin-right: auto;
-}
+}*/
 
 @media (min-width: 800px) {
   :host div {

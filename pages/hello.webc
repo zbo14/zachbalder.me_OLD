@@ -3,30 +3,41 @@ layout: layout.webc
 title:   👋 Hello
 permalink: "/"
 ---
-<main-heading align="center">
-  My name's Zach!
-</main-heading>
+<main-row>
+  <main-image src="/assets/images/me-li.png" width="80" height="80"></main-image>
+  <main-heading align="center">
+    My name's Zach!
+  </main-heading>
+</main-row>
 
 <main-row>
   <sl-icon name="laptop-fill" style="font-size: 1.8em;">
   </sl-icon>
-  <main-text>
-    I design and build <main-link internal="true" href="/software">web applications</main-link>
-  </main-text>
+  <main-subheading>
+    I design and build <main-link internal="true" href="/software">web apps</main-link>
+  </main-subheading>
 </main-row>
+
+<main-text>
+I'm a self-taught web developer building software for 6 years and counting.
+</main-text>
 
 <main-row>
   <sl-icon name="music-note-beamed" style="font-size: 1.8em;">
   </sl-icon>
-  <main-text>
-    I write and record <main-link internal="true" href="/music">electropop music</main-link>
-  </main-text>
+  <main-subheading>
+    I make <main-link internal="true" href="/music">electropop music</main-link>
+  </main-subheading>
 </main-row>
+
+<main-text>
+I'm a musical artist crafting vibrant sounds in electronic pop songs.
+</main-text>
 
 <main-row>
   <sl-icon name="chat-dots-fill" style="font-size: 1.8em;">
   </sl-icon>
-  <main-text>
+  <main-subheading>
     I'd love to <main-link internal="true" href="/contact">hear from you</main-link>
-  </main-text>
+  </main-subheading>
 </main-row>

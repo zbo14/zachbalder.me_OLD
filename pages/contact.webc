@@ -4,9 +4,12 @@ title: Contact
 permalink: "/contact.html"
 ---
 
-<main-heading align="center">
-  Get in touch!
-</main-heading>
+<main-row>
+  <main-image src="/assets/images/me-li.png" height="80" width="80"></main-image>
+  <main-heading>
+    Get in touch!
+  </main-heading>
+</main-row>
 
 <main-contact-form>
 </main-contact-form>
