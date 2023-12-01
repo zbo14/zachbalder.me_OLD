@@ -3,7 +3,7 @@ layout: layout.webc
 title: Resume
 permalink: "/resume.html"
 ---
-
+<main-fab icon="download" size="large"></main-fab>
 <template webc:type="11ty" 11ty:type="md">
   <main-resume>
 
@@ -63,3 +63,19 @@ permalink: "/resume.html"
 
   </main-resume>
 </template>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const fab = document.querySelector('main-fab')
+
+    fab.addEventListener('click', async () => {
+      const html = await fetch(window.location.href).then(response => response.text())
+      const blob = new Blob([html], { type: 'text/html' })
+      const a = document.createElement('a')
+      const url = a.href = URL.createObjectURL(blob)
+      a.download = 'Zach_Balder_Resume.html'
+      a.click()
+      window.URL.revokeObjectURL(url)
+    })
+  })
+</script>
