@@ -1,0 +1,65 @@
+---
+layout: layout.webc
+title: Resume
+permalink: "/resume.html"
+---
+
+<template webc:type="11ty" 11ty:type="md">
+  <main-resume>
+
+  # Zach Balder (he/him)
+
+  I have 6 years experience as a software engineer, working at large companies and small, building web applications and software infrastructure. I've designed and implemented interview processes, helped build product teams, and operated in a customer support capacity.
+
+  ## Work Experience
+
+  ### Software Engineer, Stealth startups
+  <em>Remote · Sep 2023 - Present </em>
+
+  Freelancing / Full-stack web development.
+  
+  **Skills:** 
+  
+  GraphQL · Next.js · Prisma · Tailwind CSS
+
+  ### Cofounder & CTO, <main-link href="https://wisiwig.co">Wisiwig</main-link>
+  <em>Boston, MA · Jun 2022 - Sep 2023 · 1 yr 4 mos</em>
+
+  Built MVP Chrome extension for pilot program in 5 weeks. Designed and deployed REST API, database, and React app. Set up dashboard analytics to measure user engagement over time. Prepared several investor demos to illustrate technical capabilities and product vision.
+
+  **Skills:** 
+  
+  API Gateway · Chrome extension · CloudFront · DynamoDB · Lambda · Node.js · MUI · Web Components
+
+  ### Software Engineer, <main-link href="https://gatherly.io">Gatherly</main-link>
+  <em>Remote · Nov 2020 - Jun 2022 · 1 yr 8 mos</em>
+
+  Added service logging via Slack webhooks to lower response times. Secured cloud resources with VPN in preparation for security audit. Led frontend migration to CDN to improve performance & UX. Automated release process and feature branch deployment. Constructed staging environment to QA platform before production.
+
+  **Skills:**
+   
+  Bash · CloudFront · DynamoDB · EC2 · Lambda · Node.js · TypeScript · Webhooks
+
+  ### Bug bounty hunter, <main-link href="https://hackerone.com/zbo14">Hackerone</main-link>
+  <em>Remote · Mar 2020 - Aug 2020 · 6 mos</em>
+
+  $2K for bug on Robinhood's HackerOne. $750 for bug on Robinhood's HackerOne. $150 for bug on Glassdoor's HackerOne.
+
+  **Skills:**
+
+  Amass · Bash · Burp Suite · Chrome DevTools · Custom tools · OWASP
+
+  ### Software Engineer, <main-link href="https://starry.com">Starry</main-link>
+  <em>Boston, MA · Jun 2018 - Feb 2020 · 1 yr 9 mos</em>
+
+  Wrote code for and provided code review on several internal projects. Developed software library that made symmetric encryption more convenient for team. Implemented SNMP service to fetch and modify configuration of field hardware. Learned how to write clean code, weigh engineering decisions, and write full-coverage tests.
+
+  **Skills:**
+   
+  Bash · Docker · MongoDB · Node.js · Vue
+
+  ## Interests
+  Songwriting · Music production · Synthesizers · Sci-fi · Web applications · Computer networking
+
+  </main-resume>
+</template>

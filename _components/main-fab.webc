@@ -1,0 +1,12 @@
+<sl-button variant="default" :size="size" circle>
+  <sl-icon :name="icon" :label="icon"></sl-icon>
+</sl-button>
+
+<style webc:scoped>
+   :host {
+      position: fixed;
+      bottom: 10vh;
+      right: 5vw;
+      z-index: 100;
+   }
+</style>

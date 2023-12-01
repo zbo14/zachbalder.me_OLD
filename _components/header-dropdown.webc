@@ -12,7 +12,10 @@
       Music
     </sl-menu-item>
     <sl-menu-item aria-label="Navigate to about page." value="/about">
-     About
+      About
+    </sl-menu-item>
+    <sl-menu-item aria-label="Navigate to resume page." value="/resume">
+      Resume
     </sl-menu-item>
     <sl-menu-item aria-label="Navigate to contact page." value="/contact">
       Contact
