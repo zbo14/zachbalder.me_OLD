@@ -9,7 +9,10 @@ permalink: "/resume.html"
 
   # Zach Balder (he/him)
 
-  I have 6 years experience as a software engineer, working at large companies and small, building web applications and software infrastructure. I've designed and implemented interview processes, helped build product teams, and operated in a customer support capacity.
+  I have 6 years experience as a software engineer, building web applications and software infrastructure. 
+  I've interviewed engineering candidates, helped build product teams, and operated in a customer support capacity.
+  Most recently, technical cofounder 
+  Currently looking for 
 
   ## Work Experience
 
@@ -25,7 +28,7 @@ permalink: "/resume.html"
   ### Cofounder & CTO, <main-link href="https://wisiwig.co">Wisiwig</main-link>
   <em>Boston, MA · Jun 2022 - Sep 2023 · 1 yr 4 mos</em>
 
-  Built MVP Chrome extension for pilot program in 5 weeks. Designed and deployed REST API, database, and React app. Set up dashboard analytics to measure user engagement over time. Prepared several investor demos to illustrate technical capabilities and product vision.
+  Built MVP Chrome extension for pilot program (>500 users). Designed and deployed REST API, database, and React app. Set up dashboard analytics to measure user engagement over time. Prepared several investor demos to illustrate technical capabilities and product vision.
 
   **Skills:** 
   
@@ -34,7 +37,7 @@ permalink: "/resume.html"
   ### Software Engineer, <main-link href="https://gatherly.io">Gatherly</main-link>
   <em>Remote · Nov 2020 - Jun 2022 · 1 yr 8 mos</em>
 
-  Added service logging via Slack webhooks to lower response times. Secured cloud resources with VPN in preparation for security audit. Led frontend migration to CDN to improve performance & UX. Automated release process and feature branch deployment. Constructed staging environment to QA platform before production.
+  Added service logging via Slack webhooks to lower incident response times. Secured cloud resources with VPN in preparation for security audit. Led frontend migration to CDN to improve performance & UX. Automated release process and feature branch deployment. Constructed staging environment to ensure product quality before shipping to users.
 
   **Skills:**
    
@@ -52,7 +55,7 @@ permalink: "/resume.html"
   ### Software Engineer, <main-link href="https://starry.com">Starry</main-link>
   <em>Boston, MA · Jun 2018 - Feb 2020 · 1 yr 9 mos</em>
 
-  Wrote code for and provided code review on several internal projects. Developed software library that made symmetric encryption more convenient for team. Implemented SNMP service to fetch and modify configuration of field hardware. Learned how to write clean code, weigh engineering decisions, and write full-coverage tests.
+  Wrote and reviewed code on several internal projects. Developed software library that made symmetric encryption easier for development team. Implemented SNMP service to fetch and modify configuration of field hardware. Learned best practices for writing clean code, weighing engineering decisions, and writing full-coverage tests.
 
   **Skills:**
    
@@ -63,19 +66,3 @@ permalink: "/resume.html"
 
   </main-resume>
 </template>
-
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const fab = document.querySelector('main-fab')
-
-    fab.addEventListener('click', async () => {
-      const html = await fetch(window.location.href).then(response => response.text())
-      const blob = new Blob([html], { type: 'text/html' })
-      const a = document.createElement('a')
-      const url = a.href = URL.createObjectURL(blob)
-      a.download = 'Zach_Balder_Resume.html'
-      a.click()
-      window.URL.revokeObjectURL(url)
-    })
-  })
-</script>
