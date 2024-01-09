@@ -3,7 +3,6 @@ layout: layout.webc
 title: Resume
 permalink: "/resume.html"
 ---
-<main-fab icon="download" size="large"></main-fab>
 <template webc:type="11ty" 11ty:type="md">
   <main-resume>
 
