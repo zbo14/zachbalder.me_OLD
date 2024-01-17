@@ -2,15 +2,57 @@
   <slot></slot>
   <sl-icon slot="previous-icon" name="chevron-left"></sl-icon>
   <sl-icon slot="next-icon" name="chevron-right"></sl-icon>
+  <sl-icon-button class="close" name="x"></sl-icon-button>
 </sl-carousel>
 
 <style webc:scoped>
   :host {
+    cursor: pointer;
     margin: var(--sl-spacing-large) 0;
+  }
+
+  :host sl-icon-button.close {
+    display: none;
+    position: fixed;
+    top: var(--sl-spacing-small);
+    left: var(--sl-spacing-small);
+    font-size: var(--sl-font-size-2x-large);
+  }
+
+  :host.fullscreen sl-icon-button.close {
+    display: unset;
+  }
+
+  :host.fullscreen {
+    margin: 0;
+    position: fixed;
+    z-index: 100;
+    padding-bottom: var(--sl-spacing-small);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+  :host.fullscreen sl-carousel {
+    display: block;
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: var(--sl-spacing-small);
   }
 
   :host sl-icon {
     font-size: var(--sl-font-size-x-small);
+  }
+
+  :host sl-carousel::part(pagination-item) {
+    width: var(--sl-spacing-x-small);
+    height: var(--sl-spacing-x-small);
   }
 
   @media (min-width: 800px) {
@@ -23,3 +65,29 @@
     }
   }
 </style>
+
+<script>
+  window.customElements.define('main-carousel', class extends HTMLElement {
+    async goToSlide() {
+      const carousel = this.querySelector('sl-carousel')
+      const slideNumber = [...carousel.slides].findIndex(slide => slide.classList.contains('--in-view'))
+      const updatePromise = carousel.updateComplete
+      carousel.goToSlide(slideNumber - 1)
+      await updatePromise
+    }
+
+    connectedCallback () {
+      this.addEventListener('click', async event => {
+        if (event.target.tagName === 'IMG') {
+          this.classList.add('fullscreen')
+          document.body.style.overflow = 'hidden'
+          await this.goToSlide()
+        } else if (event.target.tagName === 'SL-ICON-BUTTON') {
+          this.classList.remove('fullscreen')
+          document.body.style.overflow = ''
+          await this.goToSlide()
+        }
+      })
+    }
+  })
+</script>
