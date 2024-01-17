@@ -3,7 +3,7 @@
 
 <style webc:scoped>
 :host sl-icon-button {
-  font-size: 1.8rem;
+  font-size: var(--sl-font-size-large);
 }
 
 :host sl-icon-button:not(:defined) {
@@ -12,7 +12,7 @@
 
 @media (min-width: 800px) {
   :host sl-icon-button {
-    font-size: 2rem;
+    font-size: var(--sl-font-size-x-large);
   }
 }
 </style>

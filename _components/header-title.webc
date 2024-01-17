@@ -2,7 +2,6 @@
 
 <style webc:scoped>
   :host h1 {
-    align-content: center;
     font-size: var(--sl-font-size-x-large);
     font-weight: 500;
     letter-spacing: var(--sl-letter-spacing-loose);

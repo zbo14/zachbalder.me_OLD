@@ -37,7 +37,7 @@
   --sl-font-size-medium: 18px;   /* text */
   --sl-font-size-large: 20px;    /* subheading */
   --sl-font-size-x-large: 26px;  /* heading */
-  --sl-font-size-2x-large: 36px; /* title */
+  --sl-font-size-2x-large: 34px; /* title */
 
   /* Letter spacing */
   --sl-letter-spacing-loose: 0.05em;
@@ -86,6 +86,7 @@ header {
   height: 10%;
   border-bottom: 1px solid var(--sl-color-neutral-100);
   box-shadow: var(--sl-shadow-x-small);
+  z-index: 1;
 }
 
 header > * {

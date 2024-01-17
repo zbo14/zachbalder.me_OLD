@@ -13,7 +13,5 @@
   }
 
   @media (min-width: 800px) {
-    :host iframe {
-    }
   }
 </style>

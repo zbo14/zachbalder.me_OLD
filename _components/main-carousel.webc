@@ -1,0 +1,25 @@
+<sl-carousel pagination navigation loop>
+  <slot></slot>
+  <sl-icon slot="previous-icon" name="chevron-left"></sl-icon>
+  <sl-icon slot="next-icon" name="chevron-right"></sl-icon>
+</sl-carousel>
+
+<style webc:scoped>
+  :host {
+    margin: var(--sl-spacing-large) 0;
+  }
+
+  :host sl-icon {
+    font-size: var(--sl-font-size-x-small);
+  }
+
+  @media (min-width: 800px) {
+    :host {
+      margin: var(--sl-spacing-x-large) 0;
+    }
+
+    :host sl-icon {
+      font-size: var(--sl-font-size-small);
+    }
+  }
+</style>

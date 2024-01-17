@@ -17,6 +17,9 @@
     <sl-menu-item aria-label="Navigate to resume page." value="/resume">
       Resume
     </sl-menu-item>
+    <sl-menu-item aria-label="Navigate to portfolio page." value="/portfolio">
+      Portfolio
+    </sl-menu-item>
     <sl-menu-item aria-label="Navigate to contact page." value="/contact">
       Contact
     </sl-menu-item>
@@ -25,11 +28,11 @@
 
 <style webc:scoped>
 :host sl-menu-item::part(label) {
-  font-size: var(--sl-font-size-medium);
+  font-size: var(--sl-font-size-small);
 }
 
 :host sl-icon-button {
-  font-size: 1.4rem;
+  font-size: var(--sl-font-size-medium);
   border-radius: var(--sl-border-radius-medium);
   border: 1px solid var(--sl-color-neutral-200);
   box-shadow: var(--sl-shadow-large);
@@ -42,12 +45,12 @@
 
 @media (min-width: 800px) {
   :host sl-icon-button {
-    font-size: 1.6rem;
+    font-size: var(--sl-font-size-large);
     padding: 0 var(--sl-spacing-x-small);
   }
 
   :host sl-menu-item::part(label) {
-    font-size: var(--sl-font-size-large);
+    font-size: var(--sl-font-size-medium);
   }
 }
 </style>

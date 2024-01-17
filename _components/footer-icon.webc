@@ -3,6 +3,6 @@
 
 <style webc:scoped>
 :host sl-icon-button {
-  font-size: 1.2rem;
+  font-size: var(--sl-font-size-small);
 }
 </style>

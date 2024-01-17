@@ -21,12 +21,15 @@
   <body>
     <header>
       <header-home></header-home>
-        <header-title>
-          <template webc:type="11ty" 11ty:type="liquid">
-            {{ title }}
-          </template>
-        </header-title>
-      <header-dropdown></header-dropdown>
+      <header-title>
+        <template webc:type="11ty" 11ty:type="liquid">
+          {{ title }}
+        </template>
+      </header-title>
+      <main-row>
+        <header-repo-link></header-repo-link>
+        <header-dropdown></header-dropdown>
+      </main-row>
     </header>
     <main @raw="content">
     </main>

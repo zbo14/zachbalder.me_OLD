@@ -1,0 +1,29 @@
+<sl-tooltip content="Check out the GitHub repo">
+  <sl-icon-button aria-label="Link to GitHub code repository." href="https://github.com/zbo14/zachbalder.me" name="github" target="_blank">
+  </sl-icon-button>
+</sl-tooltip>
+
+<style webc:scoped>
+:host {
+  display: none;
+}
+
+:host sl-icon-button {
+  color: var(--sl-color-neutral-800);
+  font-size: var(--sl-font-size-medium);
+}
+
+:host sl-icon-button:not(:defined) {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  :host {
+    display: unset;
+  }
+
+  :host sl-icon-button {
+    font-size: var(--sl-font-size-large);
+  }
+}
+</style>
