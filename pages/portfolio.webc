@@ -156,6 +156,19 @@ permalink: "/portfolio.html"
   </main-section>
   <main-section>
     <main-subheading>
+      <main-link href="https://zbo14.github.io/overtoner">
+        Overtoner
+      </main-link>
+    </main-subheading>
+
+    <main-text>
+      Browser-based tool for overtone audio synthesis, using the Web Audio API. Provides interface for experimenting with different sounds and waveform visualization.
+    </main-text>
+
+    <main-video width="91%" src="https://github.com/zbo14/overtoner/assets/18088810/1e458be1-4710-4b8f-946a-1e61200120dd" align="center"></main-video>
+  </main-section>
+  <main-section>
+    <main-subheading>
       <main-link href="https://dreamsay.band">
         Band Website
       </main-link>
