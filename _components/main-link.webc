@@ -1,9 +1,7 @@
-<a :href="href" :target="internal ? '_self' : '_blank'">
-  <slot>Link</slot>
-</a>
+<a :href="href" :target="internal ? '_self' : '_blank'"><slot>Link</slot></a>
 
 <style webc:scoped>
-   :host a, :host a:visited {
+  :host a, :host a:visited {
     color: unset;
   }
 

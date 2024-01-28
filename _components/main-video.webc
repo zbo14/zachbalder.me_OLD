@@ -1,3 +1,6 @@
+<label>
+  <slot></slot>
+</label>
 <video :src="src" :width="width" :height="height" controls></video>
 
 <style webc:scoped>
@@ -5,13 +8,25 @@
     padding: var(--sl-spacing-small) 0;
   }
 
+  :host label {
+    font-size: var(--sl-font-size-medium);
+  }
+
   :host video {
     aspect-ratio: 16 / 9;
     border: 1px solid var(--sl-color-neutral-100);
     border-radius: var(--sl-border-radius-x-large);
     box-shadow: var(--sl-shadow-medium);
+    margin-top: var(--sl-spacing-medium);
   }
 
   @media (min-width: 800px) {
+    :host label {
+      font-size: var(--sl-font-size-large);
+    }
+
+    :host video {
+      margin-top: var(--sl-spacing-large);
+    }
   }
 </style>

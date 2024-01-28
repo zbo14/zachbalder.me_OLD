@@ -71,7 +71,7 @@
     async goToSlide() {
       const carousel = this.querySelector('sl-carousel')
       const slideNumber = [...carousel.slides].findIndex(slide => slide.classList.contains('--in-view'))
-      const updatePromise = carousel.updateComplete
+      const updatePromise = carousel?.updateComplete ?? Promise.resolve()
       carousel.goToSlide(slideNumber - 1)
       await updatePromise
     }

@@ -8,196 +8,205 @@ permalink: "/portfolio.html"
   Professional and personal projects I've worked on as the solo/lead engineer.
 </main-subheading>
 
-<sl-tab-group style="--track-width: 1.5px;">
-  <sl-tab slot="nav" panel="wisiwig-extension">Wisiwig Extension</sl-tab>
-  <sl-tab slot="nav" panel="wisiwig-platform"> Wisiwig Platform</sl-tab>
-  <sl-tab slot="nav" panel="songstat">SongStat</sl-tab>
-  <sl-tab slot="nav" panel="overtoner">Overtoner</sl-tab>
-  <sl-tab slot="nav" panel="band-website">Band website</sl-tab>
-  <sl-tab slot="nav" panel="this-website">This website</sl-tab>
+<main-section>
+  <main-subheading>
+    <main-link href="https://chromewebstore.google.com/detail/wisiwig-ui-design-and-ins/gjkgfdjfnmmmkigmccogpgbbfaejenmh">
+      Wisiwig Chrome Extension
+    </main-link>
+  </main-subheading>
 
-  <sl-tab-panel name="wisiwig-extension">
-    <main-section>
-      <main-text>
-        The <main-link href="https://chromewebstore.google.com/detail/wisiwig-ui-design-and-ins/gjkgfdjfnmmmkigmccogpgbbfaejenmh">Wisiwig Chrome extension</main-link> lets you inspect and edit elements on any web page. Modify spacing, size, color, font, and more without coding. Then, share your designs with others! A featured extension on the Chrome Store with >500 users (as of Jan 2024).
-      </main-text>
+  <main-text>
+    The Wisiwig Chrome extension lets you inspect and edit elements on any web page. Modify spacing, size, color, font, and more without coding. Then, share your designs with others! A featured extension on the Chrome Store with >500 users (as of Jan 2024).
+  </main-text>
 
-      <main-carousel>
-        <sl-carousel-item>
-          <img
-            alt="1st screenshot of band website."
-            src="/assets/images/wisiwig-chrome-1.png"
-          />
-        </sl-carousel-item>
-        <sl-carousel-item>
-          <img
-            alt="2nd screenshot of band website."
-            src="/assets/images/wisiwig-chrome-2.png"
-          />
-        </sl-carousel-item>
-        <sl-carousel-item>
-          <img
-            alt="3rd screenshot of band website."
-            src="/assets/images/wisiwig-chrome-3.png"
-          />
-        </sl-carousel-item>
-        <sl-carousel-item>
-          <img
-            alt="1st screenshot of band website."
-            src="/assets/images/wisiwig-chrome-4.png"
-          />
-        </sl-carousel-item>
-        <sl-carousel-item>
-          <img
-            alt="2nd screenshot of band website."
-            src="/assets/images/wisiwig-chrome-5.png"
-          />
-        </sl-carousel-item>
-        <sl-carousel-item>
-          <img
-            alt="3rd screenshot of band website."
-            src="/assets/images/wisiwig-chrome-6.png"
-          />
-        </sl-carousel-item>
-      </main-carousel>
-    </main-section>
-  </sl-tab-panel>
+  <main-carousel>
+    <sl-carousel-item>
+      <img
+        alt="1st screenshot of Wisiwig Chrome Extension."
+        src="/assets/images/wisiwig-chrome-1.png"
+      />
+    </sl-carousel-item>
+    <sl-carousel-item>
+      <img
+        alt="2nd screenshot of Wisiwig Chrome Extension."
+        src="/assets/images/wisiwig-chrome-2.png"
+      />
+    </sl-carousel-item>
+    <sl-carousel-item>
+      <img
+        alt="3rd screenshot of Wisiwig Chrome Extension."
+        src="/assets/images/wisiwig-chrome-3.png"
+      />
+    </sl-carousel-item>
+    <sl-carousel-item>
+      <img
+        alt="4th screenshot of Wisiwig Chrome Extension."
+        src="/assets/images/wisiwig-chrome-4.png"
+      />
+    </sl-carousel-item>
+    <sl-carousel-item>
+      <img
+        alt="5th screenshot of Wisiwig Chrome Extension."
+        src="/assets/images/wisiwig-chrome-5.png"
+      />
+    </sl-carousel-item>
+    <sl-carousel-item>
+      <img
+        alt="6th screenshot of Wisiwig Chrome Extension."
+        src="/assets/images/wisiwig-chrome-6.png"
+      />
+    </sl-carousel-item>
+  </main-carousel>
+</main-section>
 
-  <sl-tab-panel name="wisiwig-platform">
-    <main-section>
-      <main-text>
-        The  <main-link href="https://app.wisiwig.co">Wisiwig web app:</main-link> manage your designs from the Wisiwig Chrome extension and authorize product integrations (e.g. GitHub).
-      </main-text>
+<main-section>
+  <main-subheading>
+    <main-link href="https://app.wisiwig.co">
+      Wisiwig Platform
+    </main-link>
+  </main-subheading>
 
-      <main-carousel>
-        <sl-carousel-item>
-          <img
-            alt="1st screenshot of band website."
-            src="/assets/images/wisiwig-app-1.png"
-          />
-        </sl-carousel-item>
-        <sl-carousel-item>
-          <img
-            alt="2nd screenshot of band website."
-            src="/assets/images/wisiwig-app-2.png"
-          />
-        </sl-carousel-item>
-        <sl-carousel-item>
-          <img
-            alt="3rd screenshot of band website."
-            src="/assets/images/wisiwig-app-3.png"
-          />
-        </sl-carousel-item>
-        <sl-carousel-item>
-          <img
-            alt="1st screenshot of band website."
-            src="/assets/images/wisiwig-app-4.png"
-          />
-        </sl-carousel-item>
-        <sl-carousel-item>
-          <img
-            alt="2nd screenshot of band website."
-            src="/assets/images/wisiwig-app-5.png"
-          />
-        </sl-carousel-item>
-      </main-carousel>
-    </main-section>
-  </sl-tab-panel>
+  <main-text>
+    A web app where you can anage your designs from the Wisiwig Chrome extension and authorize product integrations (e.g. GitHub).
+  </main-text>
 
-  <sl-tab-panel name="songstat">
-    <main-section>
-      <main-text>
-        A <main-link href="https://songstat.xyz">Spotify app</main-link> that displays key and tempo, popularity and danceability measures, along with other information about your favorite songs/the one you're currently listening to. Currently in development mode, planning to launch publicly soon!
-      </main-text>
+  <main-carousel>
+    <sl-carousel-item>
+      <img
+        alt="1st screenshot of Wisiwig platform."
+        src="/assets/images/wisiwig-app-1.png"
+      />
+    </sl-carousel-item>
+    <sl-carousel-item>
+      <img
+        alt="2nd screenshot of Wisiwig platform."
+        src="/assets/images/wisiwig-app-2.png"
+      />
+    </sl-carousel-item>
+    <sl-carousel-item>
+      <img
+        alt="3rd screenshot of Wisiwig platform."
+        src="/assets/images/wisiwig-app-3.png"
+      />
+    </sl-carousel-item>
+    <sl-carousel-item>
+      <img
+        alt="4th screenshot of Wisiwig platform."
+        src="/assets/images/wisiwig-app-4.png"
+      />
+    </sl-carousel-item>
+    <sl-carousel-item>
+      <img
+        alt="5th screenshot of Wisiwig platform."
+        src="/assets/images/wisiwig-app-5.png"
+      />
+    </sl-carousel-item>
+  </main-carousel>
+</main-section>
 
-      <main-carousel>
-        <sl-carousel-item>
-          <img
-            alt="1st screenshot of songstat web app."
-            src="/assets/images/songstat-1.png"
-          />
-        </sl-carousel-item>
-        <sl-carousel-item>
-          <img
-            alt="2nd screenshot of songstat web app."
-            src="/assets/images/songstat-2.png"
-          />
-        </sl-carousel-item>
-        <sl-carousel-item>
-          <img
-            alt="3rd screenshot of songstat web app."
-            src="/assets/images/songstat-3.png"
-          />
-        </sl-carousel-item>
-        <!-- <sl-carousel-item>
-          <img
-            alt="1st screenshot of songstat web app."
-            src="/assets/images/songstat-4.png"
-          />
-        </sl-carousel-item> -->
-        <sl-carousel-item>
-          <img
-            alt="2nd screenshot of songstat web app."
-            src="/assets/images/songstat-5.png"
-          />
-        </sl-carousel-item>
-        <sl-carousel-item>
-          <img
-            alt="3rd screenshot of songstat web app."
-            src="/assets/images/songstat-6.png"
-          />
-        </sl-carousel-item>
-      </main-carousel>
-    </main-section>
-  </sl-tab-panel>
+<main-section>
+  <main-subheading>
+    <main-link href="https://songstat.xyz">
+      SongStat
+    </main-link>
+  </main-subheading>
 
-  <sl-tab-panel name="overtoner">
-    <main-section>
-      <main-text>
-        <main-link href="https://zbo14.github.io/overtoner">Browser-based tool</main-link> for overtone audio synthesis, using the Web Audio API. Provides interface for experimenting with different sounds and waveform visualization.
-      </main-text>
+  <main-text>
+    A Spotify app that displays key and tempo, popularity and danceability measures, along with other information about your favorite songs/the one you're currently listening to. Currently in development mode, planning to launch publicly soon!
+  </main-text>
 
-      <main-video width="90%" src="https://github.com/zbo14/overtoner/assets/18088810/1e458be1-4710-4b8f-946a-1e61200120dd" align="center"></main-video>
-    </main-section>
-  </sl-tab-panel>
+  <main-carousel>
+    <sl-carousel-item>
+      <img
+        alt="1st screenshot of SongStat web app."
+        src="/assets/images/songstat-1.png"
+      />
+    </sl-carousel-item>
+    <sl-carousel-item>
+      <img
+        alt="2nd screenshot of SongStat web app."
+        src="/assets/images/songstat-2.png"
+      />
+    </sl-carousel-item>
+    <sl-carousel-item>
+      <img
+        alt="3rd screenshot of SongStat web app."
+        src="/assets/images/songstat-3.png"
+      />
+    </sl-carousel-item>
+    <sl-carousel-item>
+      <img
+        alt="4th screenshot of SongStat web app."
+        src="/assets/images/songstat-4.png"
+      />
+    </sl-carousel-item>
+    <sl-carousel-item>
+      <img
+        alt="5th screenshot of SongStat web app."
+        src="/assets/images/songstat-5.png"
+      />
+    </sl-carousel-item>
+  </main-carousel>
+</main-section>
 
-  <sl-tab-panel name="band-website">
-    <main-section>
-      <main-text>
-        <main-link href="https://dreamsay.band">Website for my band!</main-link> Includes Spotify embed, allowing visitors to quickly listen our music, and links to streaming platforms and our socials.
-      </main-text>
+<main-section>
+  <main-subheading>
+    <main-link href="https://zbo14.github.io/overtoner">
+      Overtoner
+    </main-link>
+  </main-subheading>
 
-      <main-carousel pagination>
-        <sl-carousel-item>
-          <img
-            alt="1st screenshot of band website."
-            src="/assets/images/dreamsay-1.png"
-          />
-        </sl-carousel-item>
-        <sl-carousel-item>
-          <img
-            alt="2nd screenshot of band website."
-            src="/assets/images/dreamsay-2.png"
-          />
-        </sl-carousel-item>
-        <sl-carousel-item>
-          <img
-            alt="3rd screenshot of band website."
-            src="/assets/images/dreamsay-3.png"
-          />
-        </sl-carousel-item>
-      </main-carousel>
-    </main-section>
-  </sl-tab-panel>
+  <main-text>
+    Browser-based tool for overtone audio synthesis, using the Web Audio API. Provides interface for experimenting with different sounds and waveform visualization.
+  </main-text>
 
-  <sl-tab-panel name="this-website">
-    <main-section>
-      <main-text>
-        This website! Built with <main-link href="https://www.11ty.dev/">11ty</main-link> + <main-link href='https://www.11ty.dev/docs/languages/webc/'>WebC</main-link> and deployed on <main-link href='https://www.netlify.com/'>Netlify</main-link>.
-      </main-text>
-    </sl-tab-panel>
-  </main-section>
-</sl-tab-group>
+  <main-video width="90%" src="https://github.com/zbo14/overtoner/assets/18088810/1e458be1-4710-4b8f-946a-1e61200120dd" align="center">
+    Overtoner demo video
+  </main-video>
+</main-section>
+
+<main-section>
+  <main-subheading>
+    <main-link href="https://dreamsay.band">
+      Band Website
+    </main-link>
+  </main-subheading>
+
+  <main-text>
+    Website for my band! Includes Spotify embed, allowing visitors to quickly listen our music, and links to streaming platforms and our socials.
+  </main-text>
+
+  <main-carousel pagination>
+    <sl-carousel-item>
+      <img
+        alt="1st screenshot of band website."
+        src="/assets/images/dreamsay-1.png"
+      />
+    </sl-carousel-item>
+    <sl-carousel-item>
+      <img
+        alt="2nd screenshot of band website."
+        src="/assets/images/dreamsay-2.png"
+      />
+    </sl-carousel-item>
+    <sl-carousel-item>
+      <img
+        alt="3rd screenshot of band website."
+        src="/assets/images/dreamsay-3.png"
+      />
+    </sl-carousel-item>
+  </main-carousel>
+</main-section>
+
+<main-section>
+  <main-subheading>
+    This Website!
+  </main-subheading>
+
+  <main-text>
+    Built with <main-link href="https://www.11ty.dev/">11ty</main-link> + <main-link href='https://www.11ty.dev/docs/languages/webc/'>WebC</main-link> and deployed on <main-link href='https://www.netlify.com/'>Netlify.</main-link>
+  </main-text>
+</main-section>
 
 <style webc:scoped>
   sl-tab-panel {
