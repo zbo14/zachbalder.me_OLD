@@ -38,11 +38,10 @@
       </footer-icon>
       <footer-icon href="https://linkedin.com/in/zachary-balder/" label="Link to LinkedIn profile." name="linkedin">
       </footer-icon>
-      <footer-icon href="https://github.com/zbo14" label="Link to GitHub profile." name="github">
+      <footer-icon rel="me" href="https://github.com/zbo14" label="Link to GitHub profile." name="github">
       </footer-icon>
       <footer-icon href="https://open.spotify.com/artist/4fqgVPr0EhHqtgPuZbDcxf" label="Link to band's Spotify profile." name="spotify">
       </footer-icon>
     </footer>
-</script>
   </body>
 </html>
