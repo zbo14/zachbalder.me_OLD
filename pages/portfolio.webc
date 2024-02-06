@@ -67,7 +67,7 @@ permalink: "/portfolio.html"
   </main-subheading>
 
   <main-text>
-    A web app where you can anage your designs from the Wisiwig Chrome extension and authorize product integrations (e.g. GitHub).
+    A web app where you can manage your designs from the Wisiwig Chrome extension and authorize product integrations (e.g. GitHub).
   </main-text>
 
   <main-carousel>
@@ -112,7 +112,7 @@ permalink: "/portfolio.html"
   </main-subheading>
 
   <main-text>
-    A Spotify app that displays key and tempo, popularity and danceability measures, along with other information about your favorite songs/the one you're currently listening to. Currently in development mode, planning to launch publicly soon!
+    A Spotify app that displays key and tempo, popularity and danceability measures, along with other information about your favorite songs. Currently in development mode, planning to launch publicly soon!
   </main-text>
 
   <main-carousel>
