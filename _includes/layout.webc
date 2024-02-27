@@ -1,47 +1,65 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Personal site for Zach Balder - Software engineer and electropop artist.">
-    <template webc:type="11ty" 11ty:type="liquid">
-      <title>Zach Balder | {{ title }}</title>
-    </template>
-    <link rel="icon" type="image/png" href="/assets/icons/favicon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link webc:keep rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap">
-    <link webc:keep rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.4.0/dist/themes/light.css" />
-    <script webc:keep type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.4.0/dist/shoelace-autoloader.js"></script>
-    <script webc:keep src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-    <link rel="stylesheet" href="index.css">
-    <style webc:keep @raw="getBundle('css')"></style>
-    <script webc:keep @raw="getBundle('js')"></script>
-  </head>
-  <body>
-    <header>
-      <header-home></header-home>
-      <header-title>
-        <template webc:type="11ty" 11ty:type="liquid">
-          {{ title }}
-        </template>
-      </header-title>
-      <main-row>
-        <header-repo-link></header-repo-link>
-        <header-dropdown></header-dropdown>
-      </main-row>
-    </header>
-    <main @raw="content">
-    </main>
-    <footer>
-      <footer-icon href="https://instagram.com/zachbalder" label="Link to Instagram profile." name="instagram">
-      </footer-icon>
-      <footer-icon href="https://linkedin.com/in/zachary-balder/" label="Link to LinkedIn profile." name="linkedin">
-      </footer-icon>
-      <footer-icon rel="me" href="https://github.com/zbo14" label="Link to GitHub profile." name="github">
-      </footer-icon>
-      <footer-icon href="https://open.spotify.com/artist/4fqgVPr0EhHqtgPuZbDcxf" label="Link to band's Spotify profile." name="spotify">
-      </footer-icon>
-    </footer>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal site for Zach Balder - Software engineer and electropop artist.">
+  <meta property="og:url" content="https://zachbalder.me">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="Personal site for Zach Balder - Software engineer and electropop artist.">
+  <meta property="og:image" content="/assets/images/me-li.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="zachbalder.me">
+  <meta property="twitter:url" content="https://zachbalder.me">
+  <meta name="twitter:description" content="Personal site for Zach Balder - Software engineer and electropop artist.">
+  <meta name="twitter:image" content="/assets/images/me-li.png">
+  <template webc:type="11ty" 11ty:type="liquid">
+    <title>Zach Balder | {{ title }}</title>
+    <meta property="og:title" content="Zach Balder | {{ title }}">
+    <meta name="twitter:title" content="Zach Balder | {{ title }}">
+  </template>
+  <link rel="icon" type="image/png" href="/assets/icons/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link webc:keep rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap">
+  <link webc:keep rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.4.0/dist/themes/light.css" />
+  <script webc:keep type="module"
+    src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.4.0/dist/shoelace-autoloader.js"></script>
+  <script webc:keep src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <link rel="stylesheet" href="index.css">
+  <style webc:keep @raw="getBundle('css')"></style>
+  <script webc:keep @raw="getBundle('js')"></script>
+</head>
+
+<body>
+  <header>
+    <header-home></header-home>
+    <header-title>
+      <template webc:type="11ty" 11ty:type="liquid">
+        {{ title }}
+      </template>
+    </header-title>
+    <main-row>
+      <header-repo-link></header-repo-link>
+      <header-dropdown></header-dropdown>
+    </main-row>
+  </header>
+  <main @raw="content">
+  </main>
+  <footer>
+    <footer-icon href="https://instagram.com/zachbalder" label="Link to Instagram profile." name="instagram">
+    </footer-icon>
+    <footer-icon href="https://linkedin.com/in/zachary-balder/" label="Link to LinkedIn profile." name="linkedin">
+    </footer-icon>
+    <footer-icon href="https://github.com/zbo14" label="Link to GitHub profile." name="github">
+    </footer-icon>
+    <footer-icon href="https://open.spotify.com/artist/4fqgVPr0EhHqtgPuZbDcxf" label="Link to band's Spotify profile."
+      name="spotify">
+    </footer-icon>
+  </footer>
+</body>
+
 </html>

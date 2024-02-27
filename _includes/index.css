@@ -43,6 +43,7 @@
   --sl-letter-spacing-loose: 0.05em;
 }
 
+/* stylelint-disable-next-line */
 @media (min-width: 800px) {
   :root {
     --main-gap: var(--sl-spacing-2x-large);
