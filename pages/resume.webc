@@ -8,8 +8,10 @@ permalink: "/resume.html"
 
   # Zach Balder (he/him)
 
+  *Currently looking for a front-end or full-stack role, working closely with a product team.*
+
   I have 7 years experience as a software engineer, building web applications and software infrastructure. 
-  I've interviewed engineering candidates, built product teams, and operated in a customer support capacity.
+  I've interviewed engineering candidates, built dev teams, and operated in a customer support capacity.
 
   ## Work Experience
 
@@ -25,7 +27,7 @@ permalink: "/resume.html"
   ### Cofounder & CTO, <main-link href="https://wisiwig.co">Wisiwig</main-link>
   <em>Boston, MA · Jun 2022 - Sep 2023 · 1 yr 4 mos</em>
 
-  Alongside CEO, launched pilot program for MVP chrome extension (>500 users). Built and deployed web platform with event analytics, providing quantitative evidence of engagement for investor meetings. Prepared investor demos to illustrate technical capabilities and product vision.
+  Alongside CEO, launched pilot program for MVP chrome extension (>500 users). Built and deployed web platform with event analytics, providing quantitative evidence of user engagement for investor meetings. Prepared investor demos to illustrate technical capabilities and product vision.
 
   **Skills:** 
   
@@ -59,7 +61,7 @@ permalink: "/resume.html"
   Bash · Docker · MongoDB · Node.js · Vue
 
   ## Interests
-  Songwriting · Music production · Synthesizers · Sci-fi · Web applications · Computer networking
+  Songwriting · Music production · Saxophone · Synthesizers · Sci-fi · Web applications · Computer networking
 
   </main-resume>
 </template>

@@ -17,12 +17,14 @@ permalink: "/software.html"
 
 <main-text>
   I was the first full-time engineer hire at a 10 person company that developed a spatial <main-link href="https://gatherly.io">video chat application</main-link> hosting virtual events during/after lockdown.
+  I assisted with development of the video chat application and filled the role of lead devops engineer. I formalized a release deployment process, conducted server maintenance, and prepared our software infrastucture for SOC2 (security) certification.
+  Here's a short video showcasing the product:
 </main-text>
 
 <main-embed width="100%" src="https://www.youtube.com/embed/2GP2OZfSKIo"></main-embed>
 
 <main-text>
-  I went on to cofound <main-link href="https://wisiwig.co">a design software startup</main-link>. I helped market and launch a pilot program for a <main-link href="https://chrome.google.com/webstore/detail/wisiwig-ui-design-and-ins/gjkgfdjfnmmmkigmccogpgbbfaejenmh">Chrome extension</main-link> featured on the Chrome Web Store. Here's a look at the product demo:
+  I then went on to cofound <main-link href="https://wisiwig.co">a design software startup</main-link>. I helped market and launch a pilot program for a <main-link href="https://chrome.google.com/webstore/detail/wisiwig-ui-design-and-ins/gjkgfdjfnmmmkigmccogpgbbfaejenmh">Chrome extension</main-link>, featured on the Chrome Web Store, that allows anybody to design web pages and deliver code without having to code themselves. Along with this, I built and deployed a web application for managing Wisiwig designs and administered the backend infrastructure (e.g. API Gateway, Lambda) supporting these systems. Here's a look at our product demo:
 </main-text>
 
 <main-embed width="100%" src="https://www.youtube.com/embed/wXZTu7F6mE8"></main-embed>

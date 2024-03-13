@@ -16,7 +16,7 @@ permalink: "/portfolio.html"
   </main-subheading>
 
   <main-text>
-    The Wisiwig Chrome extension lets you inspect and edit elements on any web page. Modify spacing, size, color, font, and more without coding. Then, share your designs with others! A featured extension on the Chrome Store with >500 users (as of Jan 2024).
+    The Wisiwig Chrome extension lets you inspect and edit elements on any web page. Modify spacing, size, color, font, and more without coding. Then, share your designs with others! A featured extension on the Chrome Store with >500 users.
   </main-text>
 
   <main-carousel>
@@ -165,7 +165,7 @@ permalink: "/portfolio.html"
   </main-video>
 </main-section>
 
-<main-section>
+<!-- <main-section>
   <main-subheading>
     <main-link href="https://dreamsay.band">
       Band Website
@@ -196,7 +196,7 @@ permalink: "/portfolio.html"
       />
     </sl-carousel-item>
   </main-carousel>
-</main-section>
+</main-section> -->
 
 <main-section>
   <main-subheading>
