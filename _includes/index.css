@@ -4,8 +4,7 @@
   --main-width: 85%;
   --main-y-padding: 24%;
   --header-item-x-margin: var(--sl-spacing-medium);
-  --horizontal-gradient: repeating-linear-gradient(-90deg in hsl shorter hue, var(--sl-color-neutral-50) 30%, var(--sl-color-neutral-100) 60%, var(--sl-color-neutral-50) 90%);
-  --diagonal-gradient: repeating-linear-gradient(-45deg in hsl longer hue, var(--sl-color-neutral-50) 30%, var(--sl-color-neutral-100) 60%, var(--sl-color-neutral-50) 90%);
+  --gradient: linear-gradient(90deg in hsl shorter hue, var(--sl-color-primary-100), var(--sl-color-neutral-100));
 
   /* Primary colors */
   --sl-color-primary-50: rgb(248 249 255);
@@ -63,13 +62,14 @@ html {
 }
 
 body {
-  background: var(--horizontal-gradient), var(--diagonal-gradient);
+  background: var(--gradient);
   background-attachment: fixed;
   margin: 0;
   padding: 0;
 }
 
 main {
+  mix-blend-mode: normal;
   padding: var(--main-y-padding) 0;
   display: flex;
   flex-direction: column;
@@ -84,7 +84,7 @@ main {
 
 header {
   box-sizing: content-box;
-  background: var(--horizontal-gradient), var(--diagonal-gradient);
+  background: var(--gradient);
   top: 0;
   left: 0;
   position: fixed;
@@ -103,7 +103,7 @@ header > * {
 }
 
 footer {
-  background: var(--horizontal-gradient), var(--diagonal-gradient);
+  background: var(--gradient);
   position: fixed;
   bottom: 0;
   display: flex;

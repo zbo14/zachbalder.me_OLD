@@ -165,7 +165,7 @@ permalink: "/portfolio.html"
   </main-video>
 </main-section>
 
-<!-- <main-section>
+<main-section>
   <main-subheading>
     <main-link href="https://dreamsay.band">
       Band Website
@@ -173,30 +173,13 @@ permalink: "/portfolio.html"
   </main-subheading>
 
   <main-text>
-    Website for my band! Includes Spotify embed, allowing visitors to quickly listen our music, and links to streaming platforms and our socials.
+    Website for my band! Includes Spotify embed, allowing visitors to quickly listen our music, and links to our Linktree and a blog review.
   </main-text>
 
-  <main-carousel pagination>
-    <sl-carousel-item>
-      <img
-        alt="1st screenshot of band website."
-        src="/assets/images/dreamsay-1.png"
-      />
-    </sl-carousel-item>
-    <sl-carousel-item>
-      <img
-        alt="2nd screenshot of band website."
-        src="/assets/images/dreamsay-2.png"
-      />
-    </sl-carousel-item>
-    <sl-carousel-item>
-      <img
-        alt="3rd screenshot of band website."
-        src="/assets/images/dreamsay-3.png"
-      />
-    </sl-carousel-item>
-  </main-carousel>
-</main-section> -->
+  <main-video width="90%" src="/assets/videos/band-site.mov" align="center">
+    Band website screen recording
+  </main-video>
+</main-section>
 
 <main-section>
   <main-subheading>
