@@ -112,7 +112,7 @@ permalink: "/portfolio.html"
   </main-subheading>
 
   <main-text>
-    A Spotify app that displays key and tempo, popularity and danceability measures, along with other information about your favorite songs. Currently in development mode, planning to launch publicly soon!
+    A Spotify app that displays key and tempo, popularity and danceability measures, along with other information about your favorite songs.
   </main-text>
 
   <main-carousel>
@@ -173,7 +173,7 @@ permalink: "/portfolio.html"
   </main-subheading>
 
   <main-text>
-    Website for my band! Includes Spotify embed, allowing visitors to quickly listen our music, and links to our Linktree and a blog review.
+    Website for my band! Includes Spotify and SoundCloud embeds, allowing visitors to quickly listen to our music, links to a blog review and our Linktree, and background gradient animation.
   </main-text>
 
   <main-video width="90%" src="/assets/videos/band-site.mov" align="center">
@@ -183,11 +183,27 @@ permalink: "/portfolio.html"
 
 <main-section>
   <main-subheading>
+    <main-link href="https://feelslikehome.fm">
+      Song promo site
+    </main-link>
+  </main-subheading>
+
+  <main-text>
+    A website for pitching a single I released to curators and licensers. Contains a SoundCloud embed for the song, streaming and social links, some background on the single, and a video derived from the cover art.
+  </main-text>
+
+  <main-video width="90%" src="/assets/videos/song-promo-site.mov" align="center">
+    Song promo site screen recording
+  </main-video>
+</main-section>
+
+<main-section>
+  <main-subheading>
     This Website!
   </main-subheading>
 
   <main-text>
-    Built with <main-link href="https://www.11ty.dev/">11ty</main-link> + <main-link href='https://www.11ty.dev/docs/languages/webc/'>WebC</main-link> and deployed on <main-link href='https://www.netlify.com/'>Netlify.</main-link>
+    Built with <main-link href="https://www.11ty.dev/">11ty</main-link> + <main-link href='https://www.11ty.dev/docs/languages/webc/'>WebC</main-link> + <main-link href='https://shoelace.style'>Shoelace</main-link> and deployed on <main-link href='https://www.netlify.com/'>Netlify.</main-link>
   </main-text>
 </main-section>
 
