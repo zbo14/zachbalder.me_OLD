@@ -67,6 +67,7 @@ body {
   background-attachment: fixed;
   margin: 0;
   padding: 0;
+  background: var(--vertical-gradient);
 }
 
 main {
