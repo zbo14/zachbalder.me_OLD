@@ -59,10 +59,10 @@
 html {
   height: 100%;
   width: 100%;
+  background: var(--vertical-gradient);
 }
 
 body {
-  background: var(--vertical-gradient);
   background-blend-mode: normal;
   background-attachment: fixed;
   margin: 0;
