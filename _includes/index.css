@@ -4,7 +4,7 @@
   --main-width: 85%;
   --main-y-padding: 24%;
   --header-item-x-margin: var(--sl-spacing-medium);
-  --vertical-gradient: linear-gradient(0deg, var(--sl-color-primary-200), var(--sl-color-primary-50));
+  --gradient: linear-gradient(1deg, var(--sl-color-primary-200), var(--sl-color-primary-50));
 
   /* Primary colors */
   --sl-color-primary-50: rgb(248 249 255);
@@ -59,7 +59,7 @@
 html {
   height: 100%;
   width: 100%;
-  background: var(--vertical-gradient);
+  background: var(--gradient);
   background-attachment: fixed;
 }
 
