@@ -5,6 +5,8 @@
   --main-y-padding: 24%;
   --header-item-x-margin: var(--sl-spacing-medium);
   --gradient: linear-gradient(1deg, var(--sl-color-primary-200), var(--sl-color-primary-50));
+  --header-gradient: linear-gradient(-1deg, var(--sl-color-primary-50), var(--sl-color-primary-100));
+  --footer-gradient: linear-gradient(-1deg, var(--sl-color-primary-100), var(--sl-color-primary-200));
 
   /* Primary colors */
   --sl-color-primary-50: rgb(248 249 255);
@@ -86,7 +88,7 @@ main {
 
 header {
   box-sizing: content-box;
-  background: var(--sl-color-primary-50);
+  background: var(--header-gradient);
   top: 0;
   left: 0;
   position: fixed;
@@ -105,7 +107,7 @@ header > * {
 }
 
 footer {
-  background:  var(--sl-color-primary-200);
+  background:  var(--footer-gradient);
   position: fixed;
   bottom: 0;
   display: flex;
