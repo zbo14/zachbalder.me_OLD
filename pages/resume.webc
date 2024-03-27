@@ -27,7 +27,14 @@ permalink: "/resume.html"
   ### Cofounder & CTO, <main-link href="https://wisiwig.co">Wisiwig</main-link>
   <em>Boston, MA · Jun 2022 - Sep 2023 · 1 yr 4 mos</em>
 
-  Alongside CEO, launched pilot program for MVP chrome extension (>500 users). Built and deployed web platform with event analytics, providing quantitative evidence of user engagement for investor meetings. Prepared investor demos to illustrate technical capabilities and product vision.
+  **Product Development:**
+  - Built MVP Chrome extension for pilot program and submitted to Chrome Store (>500 users)
+  - Built and deployed React application with API Gateway + Lambda backend
+  - Translated Figma product designs into JavaScript, HTML, and CSS
+
+  **Investor Preparation:**
+  - Implemented event analytics to provide quantitative evidence of user engagement for investor meetings
+  - Prepared investor demos to illustrate technical capabilities and product vision
 
   **Skills:** 
   
@@ -36,7 +43,24 @@ permalink: "/resume.html"
   ### Software Engineer, <main-link href="https://gatherly.io">Gatherly</main-link>
   <em>Remote · Nov 2020 - Jun 2022 · 1 yr 8 mos</em>
 
-  Introduced service logging to lower incident response times and improve customer support capabilities. Secured cloud resources for SOC2 certification, leading to acquisition of enterprise customers. Led frontend migration to support virutal events with >1000 attendees and onboard larger clients.
+  **Application Development:** 
+  - Implemented event-wide video broadcast, a feature required by many customers
+  - Wrote unit, integration, and load tests to improve reliability and availability of video chat platform
+  - Created a staging environment and automated release process/rollbacks for video chat platform
+
+  **Infrastructure Development:**
+  - Introduced service logging to lower incident response times and improve customer support capabilities
+  - Secured cloud resources for SOC2 certification, leading to acquisition of enterprise customers
+  - Led frontend migration to support virutal events with >1000 attendees and onboard larger clients
+
+  **Customer Support:**
+  - Attended virtual events to troubleshoot if platform or users experienced any issues
+  - First on-call for handling availability/downtime incidents
+
+  **Interviewing & Hiring:**
+  - Reviewed resumes and screened candidate profiles before technical screening
+  - Designed technical take-home exercise for engineering candidates
+  - Conducted interviews for engineering candidates
 
   **Skills:**
    
@@ -54,7 +78,15 @@ permalink: "/resume.html"
   ### Software Engineer, <main-link href="https://starry.com">Starry</main-link>
   <em>Boston, MA · Jun 2018 - Feb 2020 · 1 yr 9 mos</em>
 
-  Maintained internal projects that delivered internet to thousands of customers. Developed encryption wrapper library that allowed our team to implement web services more efficiently. Built SNMP service to save technicians time when configuring field hardware.
+  **Software Development:**
+  - Maintained internal projects that delivered internet to thousands of customers
+  - Developed encryption wrapper library that allowed our team to implement web services more efficiently
+  - Built SNMP service to save technicians time when configuring field hardware
+
+  **Testing & QA:**
+  - Wrote full-coverage unit and integration tests
+  - Performed regular code reviews of other pull requests
+  - Manually QA'd application frontend to ensure intended behavior was properly implemented
 
   **Skills:**
    
