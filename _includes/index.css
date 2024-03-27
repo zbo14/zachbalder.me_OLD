@@ -4,14 +4,11 @@
   --main-width: 85%;
   --main-y-padding: 24%;
   --header-item-x-margin: var(--sl-spacing-medium);
-  --gradient: linear-gradient(1deg, var(--sl-color-primary-200), var(--sl-color-primary-50));
-  --header-gradient: linear-gradient(-1deg, var(--sl-color-primary-50), var(--sl-color-primary-100));
-  --footer-gradient: linear-gradient(-1deg, var(--sl-color-primary-100), var(--sl-color-primary-200));
 
   /* Primary colors */
-  --sl-color-primary-50: rgb(248 249 255);
-  --sl-color-primary-100: rgb(231 236 255);
-  --sl-color-primary-200: rgb(212 221 255);
+  --sl-color-primary-50: #f8f9ff;
+  --sl-color-primary-100: #e7ecff;
+  --sl-color-primary-200: #d4ddff;
   --sl-color-primary-300: rgb(192 205 255);
   --sl-color-primary-400: rgb(164 183 255);
   --sl-color-primary-500: rgb(128 154 255);
@@ -61,7 +58,7 @@
 html {
   height: 100%;
   width: 100%;
-  background: var(--gradient);
+  background: var(--sl-color-primary-100);
   background-attachment: fixed;
 }
 
@@ -87,8 +84,8 @@ main {
 }
 
 header {
+  background: var(--sl-color-primary-100);
   box-sizing: content-box;
-  background: var(--header-gradient);
   top: 0;
   left: 0;
   position: fixed;
@@ -107,7 +104,7 @@ header > * {
 }
 
 footer {
-  background:  var(--footer-gradient);
+  background: var(--sl-color-primary-100);
   position: fixed;
   bottom: 0;
   display: flex;
@@ -116,5 +113,5 @@ footer {
   width: 100%;
   gap: var(--sl-spacing-medium);
   padding: var(--sl-spacing-x-small) 0;
-  border-top: 1px solid var(--sl-color-neutral-300);
+  border-top: 1px solid var(--sl-color-neutral-200);
 }
