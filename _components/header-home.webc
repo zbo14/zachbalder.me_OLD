@@ -1,9 +1,10 @@
-<sl-icon-button aria-label="Link to website home." href="/" name="house-fill">
+<sl-icon-button label="Link to website home." href="/" name="house-fill">
 </sl-icon-button>
 
 <style webc:scoped>
 :host sl-icon-button {
   font-size: var(--sl-font-size-large);
+  color: var(--sl-color-neutral-800);
 }
 
 :host sl-icon-button:not(:defined) {

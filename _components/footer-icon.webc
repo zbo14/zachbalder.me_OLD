@@ -4,5 +4,6 @@
 <style webc:scoped>
 :host sl-icon-button {
   font-size: var(--sl-font-size-small);
+  color: var(--sl-color-neutral-800);
 }
 </style>

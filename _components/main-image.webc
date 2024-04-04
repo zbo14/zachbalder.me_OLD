@@ -1,4 +1,4 @@
-<img :src="src" :width="width" :height="height" />
+<img :alt="alt" :src="src" :width="width" :height="height" />
 
 <style webc:scoped>
   :host {

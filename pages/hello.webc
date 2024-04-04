@@ -4,7 +4,7 @@ title:   👋 Hello
 permalink: "/"
 ---
 <main-row>
-  <main-image src="/assets/images/me-li.png" width="80" height="80"></main-image>
+  <main-image alt="Profile picture" src="/assets/images/me-li.png" width="80" height="80"></main-image>
   <main-heading align="center">
     My name's Zach!
   </main-heading>

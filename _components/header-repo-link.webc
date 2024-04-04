@@ -1,5 +1,5 @@
 <sl-tooltip content="Check out the GitHub repo">
-  <sl-icon-button aria-label="Link to GitHub code repository." href="https://github.com/zbo14/zachbalder.me" name="github" target="_blank">
+  <sl-icon-button label="Link to GitHub code repository." href="https://github.com/zbo14/zachbalder.me" name="github" target="_blank">
   </sl-icon-button>
 </sl-tooltip>
 
